@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Стили для разрешения 67% (предполагая, что стандартное разрешение 1440px) */
+  body {
+      transform: scale(0.67);
+      transform-origin: 0 0;
+      width: 1490px; /* Ширина сайта после масштабирования */
+  } 
+}
+body {
+  background-color: #ffffff; /* или background-color: black; */
+}
+
+.header-line {
+    background-color: rgb(218, 218, 218);
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Изменено */
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .phone {
+    margin: 0;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+
+.image-section {
+  background-color: rgba(0, 0, 0, 0); /* Цвет фона для секции с картинкой */
+  padding: 20px;
+  position: relative; /* Добавлено */
+  display: flex; /* Добавлено */
+}
+.image-sectio {
+  background-color: rgba(0, 0, 0, 0); /* Цвет фона для секции с картинкой */
+  padding: 20px;
+  position: relative; /* Добавлено */
+}
+
+.image-container {
+  width: 1800px; /* Ширина контейнера для картинки */
+  height: 900px; /* Высота контейнера для картинки */
+  background-image: url(pictures/Cleaning.jpeg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
+  background-size: cover; /* Масштабирование фона, чтобы заполнить контейнер */
+  background-position: center; /* Позиция фона внутри контейнера */
+  margin-bottom: -40px; /* Добавлено */
+}
+.image-containe {
+  width: 1800px; /* Ширина контейнера для картинки */
+  height: 300px; /* Высота контейнера для картинки */
+  background-image: url(pictures/second.jpg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
+  background-size: cover; /* Масштабирование фона, чтобы заполнить контейнер */
+  background-position: center; /* Позиция фона внутри контейнера */
+  margin-bottom: 0; /* Добавлено */
+}
+
+.image-text,
+.imagetext,
+.image_text {
+  -webkit-text-stroke: 2px #000000; /* Ширина и цвет обводки */
+  -webkit-text-fill-color: rgb(116, 116, 116); /* Прозрачный цвет заливки */
+  position: absolute;
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-text {
+  top: 7%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.imagetext {
+  top: 27%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.image_text {
+  top: 17%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+}
+
+.minitext,
+.mini_text {
+  -webkit-text-stroke: 1px #000000; /* Ширина и цвет обводки */
+  -webkit-text-fill-color: rgb(122, 122, 122); /* Прозрачный цвет заливки */
+  position: absolute;
+  font-size: 37px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.minitext {
+  top: 34%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
+
+.mini_text {
+  top: 39%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+}
+
+.image-button {
+  position: absolute;
+  bottom: 70px; /* Изменено */
+  left: 5%;
+  padding: 15px 25px; /* Изменено */
+  background-color: rgb(0, 89, 255);
+  color: white;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  width: 98%;
+  height: 89%;
+  background-color: rgba(128, 128, 128, 0.596); /* Задайте желаемую прозрачность */
+}
+
+.smalltext{
+  -webkit-text-stroke: 2px #000000; /* Ширина и цвет обводки */
+  -webkit-text-fill-color: rgb(116, 116, 116); /* Прозрачный цвет заливки */
+  position: absolute;
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  top: 70%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+
