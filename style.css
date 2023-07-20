@@ -52,7 +52,7 @@ body {
 .image-container {
   width: 1800px; /* Ширина контейнера для картинки */
   height: 900px; /* Высота контейнера для картинки */
-  background-image: url(pictures/Cleaning.jpeg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
+  background-image: url(Pictures/Cleaning.jpeg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
   background-size: cover; /* Масштабирование фона, чтобы заполнить контейнер */
   background-position: center; /* Позиция фона внутри контейнера */
   margin-bottom: -40px; /* Добавлено */
@@ -60,7 +60,7 @@ body {
 .image-containe {
   width: 1800px; /* Ширина контейнера для картинки */
   height: 300px; /* Высота контейнера для картинки */
-  background-image: url(pictures/second.jpg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
+  background-image: url(Pictures/second.jpg); /* Замени "путь_к_твоей_картинке" на реальный путь к твоей картинке */
   background-size: cover; /* Масштабирование фона, чтобы заполнить контейнер */
   background-position: center; /* Позиция фона внутри контейнера */
   margin-bottom: 0; /* Добавлено */
